@@ -1,10 +1,10 @@
-# 🃏 Uno Card Game Simulator
+# Uno Card Game Simulator
 
 A functional Python implementation of a simplified Uno card game, built from scratch using core Python principles — no external libraries required.
 
 ---
 
-## 📌 What It Does
+## What It Does
 
 Simulates a complete Uno card game between multiple players. The game deals cards, matches by color or number, handles draws when no match exists, and runs until one player empties their hand.
 
@@ -12,7 +12,7 @@ Each card is a 2-character string: **digit (1–9)** + **color (r/g/b/y)**. For 
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 uno-card-game/
@@ -23,7 +23,7 @@ uno-card-game/
 
 ---
 
-## ⚙️ Functions
+## Functions
 
 | Function | Description |
 |----------|-------------|
@@ -38,7 +38,7 @@ uno-card-game/
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ```bash
 # Run the built-in tests
@@ -54,7 +54,7 @@ winner = supervisor(deck, pile, hands, pause=False)
 
 ---
 
-## 🧪 Tests
+## Tests
 
 All functions include built-in assertion tests that run automatically. Expected output:
 
@@ -70,13 +70,13 @@ All tests passed!
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 `Python 3` · `random` (shuffle) · No external dependencies
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 ```bash
 git clone https://github.com/yoganand97/uno-card-game.git
